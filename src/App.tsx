@@ -2,8 +2,9 @@ import Characters from "./components/Characters";
 import Footer from "./components/Footer";
 import Graphics from "./components/Graphics";
 import Home from "./components/Home";
-import Maps from "./components/Maps";
+import ImageSlider from "./components/ImageSlider";
 import Navbar from "./components/Navbar";
+import { SliderData } from "./components/SliderData";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Home />
       <Characters />
       <Graphics />
-      <Maps />
+      <ImageSlider slides={SliderData} />
       <Footer />
     </div>
   );
